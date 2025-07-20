@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+}
+
+.btn-container{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.red{
+    background-color: #d95980;
+    border-top-left-radius: 100%;
+}
+.yellow{
+    background-color: yellow;
+    border-top-right-radius: 100%;
+}
+.green{
+    background-color: lightseagreen;
+    border-bottom-left-radius: 100% 
+}
+.blue{
+    background-color: cornflowerblue;
+    border-bottom-right-radius: 100% 
+}
+
+.flash{
+    background-color: white;
+}
+
+.high-score{
+    position: absolute;
+    top: 1%;
+    right: 10%;
+}
+
+i{
+    position: absolute;
+    top: 48.5%;
+    left: 48.5%;
+}
