@@ -17,6 +17,7 @@ body{
     align-content: space-evenly;
     margin: auto;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .red{
@@ -48,6 +49,6 @@ body{
 
 i{
     position: absolute;
-    top: 48.5%;
-    left: 48.5%;
+    top: 45.2%;
+    left: 45.3%;
 }
